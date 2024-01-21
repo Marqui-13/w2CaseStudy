@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactStyles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Contact The Daily Grind</h1>
+      <div class="container">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Salutation:</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="australia">Mr.</option>
+                <option value="canada">Mrs.</option>
+                <option value="usa">Miss</option>
+                <option value="usa">Dr.</option>
+                <option value="usa">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your first name..."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="lastname"
+                placeholder="Your last name..."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Email Address:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your email address..."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Phone Number:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your phone number..."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Subject:</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your phone number..."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Comments</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+          <label for="vehicle1">
+            Please click here if you wish to recieve a reply:</label
+          >
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
+          <div class="row">
+            <input type="reset" value="Reset" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
