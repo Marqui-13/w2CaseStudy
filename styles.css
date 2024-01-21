@@ -1,11 +1,9 @@
-* {
-}
-
-html {
+*, html {
+    font-family: "Times New Roman", Times, serif;
 }
 
 .logo {
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .addressPhone {
@@ -36,14 +34,9 @@ html {
   }
 }
 
-.title {
-  border: 3px solid;
-  border-color: aqua;
-  font-weight: 700;
-}
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f7f7f7;
+  background-color: white;
   color: black;
   margin: 0px;
   padding-left: 30px;
@@ -51,15 +44,15 @@ body {
 
 ul {
   padding-left: 20px;
+  border: none;
 }
 
 li {
   padding: 10px;
+  border: none;
 }
 
 .breads {
-  margin-top: 0px;
-  padding-top: 0px;
   padding-bottom: 100px;
   padding-right: 30px;
   float: right;
